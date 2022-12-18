@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry excluding="Assignments/|ERRORSHOTS/" kind="src" path="src"/>
+	<classpathentry kind="lib" path="New folder/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="Apachepoijarfiles/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="Apachepoijarfiles/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="Apachepoijarfiles/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="Apachepoijarfiles/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="Apachepoijarfiles/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="Apachepoijarfiles/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="Apachepoijarfiles/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="Apachepoijarfiles/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="Apachepoijarfiles/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="Apachepoijarfiles/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="Apachepoijarfiles/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="Apachepoijarfiles/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="Apachepoijarfiles/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

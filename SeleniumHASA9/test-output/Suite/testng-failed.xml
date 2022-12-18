@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestBlock2(failed)">
+    <classes>
+      <class name="parallelpractice.Projectmodule">
+        <methods>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="deleteProject"/>
+          <include name="createProject"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- parallelpractice.Projectmodule -->
+    </classes>
+  </test> <!-- TestBlock2(failed) -->
+  <test thread-count="5" parallel="tests" name="TestBlock1(failed)">
+    <classes>
+      <class name="parallelpractice.Taskmodule">
+        <methods>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="deleteTask"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="createTask"/>
+        </methods>
+      </class> <!-- parallelpractice.Taskmodule -->
+    </classes>
+  </test> <!-- TestBlock1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
