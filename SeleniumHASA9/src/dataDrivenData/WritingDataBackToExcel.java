@@ -16,7 +16,7 @@ public class WritingDataBackToExcel {
 	{
 		FileInputStream fis=new FileInputStream("./data/testscript.xlsx");
 		Workbook wbs = WorkbookFactory.create(fis);
-           wbs.getSheet("CreateCustomer").getRow(2).getCell(3).setCellValue("pass");
+           wbs.getSheet("LoginPage").getRow(2).getCell(3).setCellValue("pass");
            FileOutputStream fos=new FileOutputStream("./data/testscript.xlsx");//converts java file object data into physical file(external resource file)
            wbs.write(fos);//save the workbook(actual writing happens here)
            wbs.close();//close the workbook

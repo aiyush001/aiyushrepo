@@ -18,10 +18,11 @@ public class TestDemo11 extends BaseClass
 		Reporter.log("modifyCustomer",true);
 	}
 	
-	@Test 
+	/*@Test 
 	public void deleteCustomer()
 	{
 		Reporter.log("deleteCustomer",true);
 	}
+	*/
 
 }

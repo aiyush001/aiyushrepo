@@ -27,8 +27,8 @@ public class BaseClass
 	public static WebDriver driver;
 	
 	//@BeforeClass(groups = { "smokeTest", "regressionTest"})
-	//@BeforeClass
-	@BeforeTest
+	@BeforeClass
+	//@BeforeTest
 	public void openBrowser()
 	{
 		Reporter.log("openBrowser",true);
@@ -59,8 +59,8 @@ public class BaseClass
     }
     
    // @AfterClass(groups = { "smokeTest", "regressionTest"})
-  // @AfterClass
-   @AfterTest
+   @AfterClass
+   //@AfterTest
     public void closeBrowser()
     {
     	Reporter.log("cloaseBrowser",true);

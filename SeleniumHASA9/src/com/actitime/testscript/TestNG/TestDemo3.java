@@ -9,7 +9,7 @@ public class TestDemo3
 	public void createCustomer()
 	{
 		Reporter.log("createCustomer",true);
-	//int i=1/0;
+	int i=1/0;
 	}
 	@Test (dependsOnMethods="createCustomer")
 	public void modifyCustomer()
